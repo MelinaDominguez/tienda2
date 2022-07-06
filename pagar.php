@@ -44,9 +44,21 @@ if($_POST){
 
 
 
-    echo "<h3>". $total."</h3>";
+   // echo "<h3>". $total."</h3>";
 }
 ?>
+
+<div class="jumbotron bg-light text-center">
+    <h1 class="display-4">¡¡Ya esta casi listo!!</h1>
+    <hr class="my-4">
+    <p class="lead">Estas a punto de pagar la cantidad de:
+        <h4>$<?php echo number_format($total,2);  ?></h4> 
+    </p>
+    <p>Los productos seran procesados para envio luego de que se autorice el pago<br>
+    <strong>(Para dudas y aclaraciones: vestidos_mi_princesa@gmail.com)</strong>
+    </p>
+   
+</div>
 
 
 
